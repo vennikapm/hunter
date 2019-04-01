@@ -9,6 +9,8 @@ void main()
         scanf("%d",&a[i]);
     }
     for(i=0;i<n;i++)
+    {  
+        if(a[i]!='&')
     {
         for(j=i+1;j<n;j++)
         {
@@ -20,6 +22,7 @@ void main()
                 c++;
             }
         }
+    }
     }
     if(c>0)
     {
