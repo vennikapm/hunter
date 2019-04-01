@@ -33,7 +33,7 @@ void main()
     }
     for(i=0;i<k;i++)
     {
-        printf("%d",b[i]);
+        printf("%d ",b[i]);
     }
     }
     else
